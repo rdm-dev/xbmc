@@ -607,3 +607,7 @@ msgstr "DISC ABSPIELEN"
 msgctxt "#31959"
 msgid "SYSTEM"
 msgstr "SYSTEM"
+
+msgctxt "#62345"
+msgid "HOMEPILOT"
+msgstr "HOMEPILOT"

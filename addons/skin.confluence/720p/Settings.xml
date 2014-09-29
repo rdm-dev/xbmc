@@ -133,6 +133,7 @@
 						<label2>31409</label2>
 						<onclick>ActivateWindow(PVRSettings)</onclick>
 						<icon>special://skin/backgrounds/tv.jpg</icon>
+						<visible>false</visible>
 					</item>
 					<item id="4">
 						<label>2</label>

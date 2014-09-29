@@ -693,3 +693,7 @@ msgstr ""
 msgctxt "#31959"
 msgid "SYSTEM"
 msgstr ""
+
+msgctxt "#62345"
+msgid "HOMEPILOT"
+msgstr "HOMEPILOT"

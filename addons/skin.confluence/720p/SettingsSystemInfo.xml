@@ -161,6 +161,7 @@
 					<texturenofocus border="5">MenuItemNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<label>19191</label>
+					<visible>false</visible>
 				</control>
 			</control>
 			<control type="image">
