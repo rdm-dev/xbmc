@@ -114,7 +114,7 @@
       <group id="1">
         <setting id="locale.language" type="string" label="248" help="36114">
           <level>0</level>
-          <default>English</default>
+          <default>German</default>
           <constraints>
             <options>languages</options>
           </constraints>
@@ -122,7 +122,7 @@
         </setting>
         <setting id="locale.country" type="string" label="20026" help="36115">
           <level>0</level>
-          <default>USA (12h)</default>
+          <default>Deutschland</default>
           <constraints>
             <options>regions</options>
           </constraints>
@@ -797,7 +797,7 @@
       <group id="1">
         <setting id="subtitles.languages" type="list[string]" label="24111" help="24112">
           <level>1</level>
-          <default>English</default>
+          <default>German</default>
           <constraints>
             <options>languages</options>
             <delimiter>,</delimiter>
@@ -2003,7 +2003,7 @@
       <group id="1">
         <setting id="services.devicename" type="string" label="1271" help="36321">
           <level>0</level>
-          <default>XBMC</default>
+          <default>HomePilot2</default>
           <control type="edit" format="string" />
         </setting>
       </group>
@@ -2199,7 +2199,7 @@
       <group id="1">
         <setting id="services.airplay" type="boolean" label="1270" help="36343">
           <level>1</level>
-          <default>false</default>
+          <default>true</default>
           <control type="toggle" />
         </setting>
         <setting id="services.airplayvolumecontrol" type="boolean" parent="services.airplay" label="1269" help="36541">
@@ -2760,6 +2760,7 @@
           <control type="toggle" />
         </setting>
       </group>
+      <visible>false</visible>
     </category>
     <category id="debug" label="14092" help="36391">
       <group id="1">
