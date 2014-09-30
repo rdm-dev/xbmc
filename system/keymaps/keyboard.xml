@@ -93,11 +93,11 @@
       <numpadseven>Number7</numpadseven>
       <numpadeight>Number8</numpadeight>
       <numpadnine>Number9</numpadnine>
-      <backslash>ToggleFullScreen</backslash>
+      <backslash></backslash>
       <home>FirstPage</home>
       <end>LastPage</end>
-      <power>ActivateWindow(shutdownmenu)</power>
-      <sleep>ActivateWindow(shutdownmenu)</sleep>
+      <power></power>
+      <sleep></sleep>
       <!-- PVR windows -->
       <e>XBMC.ActivateWindowAndFocus(MyPVR, 31,0, 10,0)</e>
       <h>XBMC.ActivateWindowAndFocus(MyPVR, 32,0, 11,0)</h>
@@ -155,13 +155,13 @@
   </global>
   <LoginScreen>
     <keyboard>
-      <end mod="ctrl">XBMC.ShutDown()</end>
+      <end></end>
     </keyboard>
   </LoginScreen>
   <Home>
     <keyboard>
       <i>info</i>
-      <end mod="ctrl">XBMC.ShutDown()</end>
+      <end></end>
     </keyboard>
   </Home>
   <VirtualKeyboard>
