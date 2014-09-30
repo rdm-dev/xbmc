@@ -67,8 +67,8 @@ class CPowerSyscallWithoutEvents : public IPowerSyscall
 public:
   CPowerSyscallWithoutEvents() { m_OnResume = false; m_OnSuspend = false; }
 
-  virtual bool Suspend() { m_OnSuspend = true; return false; }
-  virtual bool Hibernate() { m_OnSuspend = true; return false; }
+  virtual bool Suspend() { m_OnSuspend = false; return false; }
+  virtual bool Hibernate() { m_OnSuspend = false; return false; }
 
   virtual bool PumpPowerEvents(IPowerEventsCallback *callback)
   {

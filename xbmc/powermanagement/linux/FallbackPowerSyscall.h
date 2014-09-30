@@ -25,12 +25,12 @@
 class CFallbackPowerSyscall : public CPowerSyscallWithoutEvents
 {
 public:
-  virtual bool Powerdown() {return true; }
+  virtual bool Powerdown() {return false; }
   virtual bool Suspend() {return false; }
   virtual bool Hibernate() {return false; }
   virtual bool Reboot() {return true; }
 
-  virtual bool CanPowerdown() {return true; }
+  virtual bool CanPowerdown() {return false; }
   virtual bool CanSuspend() {return false; }
   virtual bool CanHibernate() {return false; }
   virtual bool CanReboot() {return true; }

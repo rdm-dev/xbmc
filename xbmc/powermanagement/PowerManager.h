@@ -49,10 +49,10 @@ public:
   virtual bool Hibernate()    { return false; }
   virtual bool Reboot()       { return false; }
 
-  virtual bool CanPowerdown() { return true; }
-  virtual bool CanSuspend()   { return true; }
-  virtual bool CanHibernate() { return true; }
-  virtual bool CanReboot()    { return true; }
+  virtual bool CanPowerdown() { return false; }
+  virtual bool CanSuspend()   { return false; }
+  virtual bool CanHibernate() { return false; }
+  virtual bool CanReboot()    { return false; }
 
   virtual int  BatteryLevel() { return 0; }
 

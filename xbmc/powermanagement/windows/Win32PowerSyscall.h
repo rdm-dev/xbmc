@@ -43,8 +43,8 @@ public:
 
   virtual bool PumpPowerEvents(IPowerEventsCallback *callback);
 
-  static void SetOnResume() { m_OnResume = true; }
-  static void SetOnSuspend() { m_OnSuspend = true; }
+  static void SetOnResume() { m_OnResume = false; }
+  static void SetOnSuspend() { m_OnSuspend = false; }
   static bool IsSuspending() { return m_OnSuspend; }
 
 private:
