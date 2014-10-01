@@ -219,7 +219,7 @@
       <group id="1">
         <setting id="screensaver.mode" type="addon" label="356" help="36130">
           <level>0</level>
-          <default>screensaver.xbmc.builtin.dim</default>
+          <default></default>
           <constraints>
             <addontype>xbmc.ui.screensaver</addontype>
             <allowempty>true</allowempty>
@@ -2059,7 +2059,7 @@
         </setting>
         <setting id="services.webserverusername" type="string" parent="services.webserver" label="1048" help="36330">
           <level>1</level>
-          <default>xbmc</default>
+          <default>HomePilot2</default>
           <constraints>
             <allowempty>true</allowempty>
           </constraints>
