@@ -10995,7 +10995,7 @@ msgstr "Geräte, die den TV ausschalten, wenn XBMC beendet wird"
 
 msgctxt "#36009"
 msgid "Put devices in standby mode when activating screensaver"
-msgstr "Geräte in Standby versetzen, wenn der ildschirmschoner aktiviert wird"
+msgstr "Geräte in Standby versetzen, wenn derBildschirmschoner aktiviert wird"
 
 msgctxt "#36010"
 msgid "Wake devices when deactivating screensaver"
