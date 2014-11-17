@@ -1068,7 +1068,7 @@
 			<left>20</left>
 			<top>55r</top>
 			<include>Window_OpenClose_Animation</include>
-			<control type="button" id="21">
+			<control type="button" id="20">
 				<description>Power push button</description>
 				<left>55</left>
 				<top>0</top>
@@ -1083,7 +1083,7 @@
 				<onright>21</onright>
 				<onup>9002</onup>
 				<ondown>9003</ondown>
-				<visible>false</visible>
+				<visible>true</visible>
 			</control>
 			<control type="image">
 				<description>Power Icon</description>
@@ -1093,9 +1093,9 @@
 				<height>35</height>
 				<aspectratio>keep</aspectratio>
 				<texture>icon_power.png</texture>
-				<visible>false</visible>
+				<visible>true</visible>
 			</control>
-			<control type="button" id="20">
+			<control type="button" id="21">
 				<description>Favourites push button</description>
 				<left>0</left>
 				<top>0</top>
